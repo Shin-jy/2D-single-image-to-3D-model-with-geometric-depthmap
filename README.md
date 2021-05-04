@@ -1,7 +1,16 @@
 # 2D-single-image-to-3D-image_DIP_project
 
-####수행환경####
 
+살기좋은 주거공간을 찾기 위한 3D 모델링
+
+
+
+![image](https://user-images.githubusercontent.com/46091177/116972531-1b024d00-acf6-11eb-8d3f-a34f25153528.png)
+
+
+
+
+<수행환경>
 우분투PC or 윈도우PC+가상머신(vmware workstation)
 python3.6
 matlab (방의 layout 알아내기 위해서 open source사용)
