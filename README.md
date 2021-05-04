@@ -1,6 +1,7 @@
 # 2D-single-image-to-3D-image_DIP_project
 
 ####수행환경####
+
 우분투PC or 윈도우PC+가상머신(vmware workstation)
 python3.6
 matlab (방의 layout 알아내기 위해서 open source사용)
@@ -17,26 +18,26 @@ matlab (방의 layout 알아내기 위해서 open source사용)
 
 
 ####open3d 설치방법####
-1.
-git clone --recursive https://github.com/intel-isl/Open3D
-2.
-util/scripts/install-deps-ubuntu.sh
-3.
-which python3.6 와 python -V 창에 입력해서 파이썬 위치와 버전 파악
-4.
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3.6 하면 
+$git clone --recursive https://github.com/intel-isl/Open3D
+
+$util/scripts/install-deps-ubuntu.sh
+
+$which python3.6 와 python -V 창에 입력해서 파이썬 위치와 버전 파악
+
+$cmake -DPYTHON_EXECUTABLE=/usr/bin/python3.6  
 -- Found PythonInterp: /usr/bin/python3.6 (found version "3.6.9") 뜨는지 확인
-5.
-cmake -DCMAKE_INSTALL_PREFIX=/home/juyeon(본인경로)/Open3D/build ..
-6.
-cd Open3D
-7.
-pip uninstall open3d 한 후
-8.
-make install-pip-package 끝
+
+$cmake -DCMAKE_INSTALL_PREFIX=/home/juyeon(본인경로)/Open3D/build ..
+
+$cd Open3D
+
+$pip uninstall open3d 
+
+$make install-pip-package 
 
 
 ####코드 시행하기####
+
 해당 위치에서의 우분투 터미널창에 다음의 커맨드 입력해서 시행
 input 폴더에는 입력물이 있으며
 output 폴더에서 각 코드의 결과물은 볼 수 있으며 output(mid_ppt)에선 중간발표까지의 결과물을 볼 수 있습니다.
