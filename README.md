@@ -1,14 +1,13 @@
 # 2D-single-image-to-3D-model-with-geometric-depthmap
-## DIP_project
+## DIP 디지털 영상처리 project
 
 
-> 살기좋은 주거공간을 찾기 위한 3D 모델링
+## 의의
+일반적인 2D image의 Depth를 정확하게 추론할 수 있다면 3D 모델을 만들 수 있다. 
+살기좋은 주거공간을 찾기 위한 3D 모델링 
 
-
-
+## 알고리즘
 ![image](https://user-images.githubusercontent.com/46091177/116972531-1b024d00-acf6-11eb-8d3f-a34f25153528.png)
-
-
 
 
 ## Environment
