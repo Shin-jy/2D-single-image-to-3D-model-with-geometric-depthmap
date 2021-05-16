@@ -11,13 +11,13 @@
 
 
 
-<수행환경>
+## Environment
 우분투PC or 윈도우PC+가상머신(vmware workstation)
 python3.6
 matlab (방의 layout 알아내기 위해서 open source사용)
 
 
-####요구되는 python 라이브러리####
+## python package library
 -numpy
 -matplotlib
 -numpy
@@ -27,7 +27,8 @@ matlab (방의 layout 알아내기 위해서 open source사용)
 -open3d 
 
 
-####open3d 설치방법####
+## open3d 설치방법 
+'''
 $git clone --recursive https://github.com/intel-isl/Open3D
 
 $util/scripts/install-deps-ubuntu.sh
@@ -45,16 +46,18 @@ $pip uninstall open3d
 
 $make install-pip-package 
 
+'''
 
-####코드 시행하기####
+## 코드 시행
 
-해당 위치에서의 우분투 터미널창에 다음의 커맨드 입력해서 시행
-input 폴더에는 입력물이 있으며
-output 폴더에서 각 코드의 결과물은 볼 수 있으며 output(mid_ppt)에선 중간발표까지의 결과물을 볼 수 있습니다.
-layout폴더에는 mat형태의 room layout map이 RGB 3개 있습니다.
-인풋 한장만을 넣어놧는데 만약 다른 인풋의 실행결과를 보고싶다면 따로 메일 주세요
+> 해당 위치에서의 우분투 터미널창에 다음의 커맨드 입력해서 시행
+> input 폴더에는 입력물이 있으며
+> output 폴더에서 각 코드의 결과물은 볼 수 있으며 output(mid_ppt)에선 중간발표까지의 결과물을 볼 수 있습니다.
+> layout폴더에는 mat형태의 room layout map이 RGB 3개 있습니다.
+> 인풋 한장만을 넣어놧는데 만약 다른 인풋의 실행결과를 보고싶다면 따로 메일 주세요
 
-=> 터미널 창에 입력할 커맨드
+> 터미널 창에 입력할 커맨드
+'''
 python3 1region-based_segmetation.py 
 
 python3 2VanishingPoint.py 
@@ -69,5 +72,5 @@ python3 test.py
 
 python3 customized_visualization.py  
 =>K 키를 누르면 검정 배경  R키를 누르면 하얀 배경 .키를 누르면 3D 모델의 depth 캡쳐 ,키를 누르면 3D 모델의 gray image 캡쳐
-
+'''
 
