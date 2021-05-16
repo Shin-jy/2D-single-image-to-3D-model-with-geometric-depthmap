@@ -1,7 +1,8 @@
-# 2D-single-image-to-3D-image_DIP_project
+# 2D-single-image-to-3D-model-with-geometric-depthmap
+## DIP_project
 
 
-살기좋은 주거공간을 찾기 위한 3D 모델링
+> 살기좋은 주거공간을 찾기 위한 3D 모델링
 
 
 
